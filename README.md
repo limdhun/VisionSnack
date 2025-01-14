@@ -1,5 +1,5 @@
 # Android에서 YOLOv5를 사용한 객체 탐지
-
+Big Thanks To https://github.com/pytorch/android-demo-app/tree/master
 ## 소개하기
 
 [YOLO](https://pjreddie.com/darknet/yolo/) (You Only Look Once)는 가장 빠르고 인기 있는 객체 팀지 모델 중 하나입니다. [YOLOv5](https://github.com/ultralytics/yolov5)는 오픈 소스로 구현된 YOLO 최신 버전입니다(추론을 위해 PyTorch 허브에서 YOLOv5를 로드하는 빠른 테스트는 [여기](https://pytorch.org/hub/ultralytics_yolov5/#load-from-pytorch-hub) 참조). Object Detection with YOLOv5 Android 샘플 앱은 스크립트화된 PyTorch YOLOv5 모델을 사용하여 훈련된 [80개 클래스](https://github.com/ultralytics/yolov5/blob/master/data/coco.yaml)의 객체를 감지합니다.
